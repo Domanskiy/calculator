@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+    height: 0!important;
+}
+.nolight {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+#calc {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    width: 200px;
+    background: #999999;
+    -moz-box-shadow: 0 0 10px 5px #4D4D4D;
+    -webkit-box-shadow: 0 0 10px 5px #4D4D4D;
+    box-shadow: 0 0 10px 5px #4D4D4D;
+}
+#calc.loading {
+    opacity: 0.5;
+}
+#calc .main {
+    margin: 20px;
+    width: 160px;
+}
+
+/* screens */
+#calc #screen, #calc #info {
+    text-align: right;
+    margin-bottom: 5px;
+}
+#calc #screen {
+    width: 110px;
+}
+#calc #info {
+    background: #CCCCCC;
+    color: #808080;
+    width: 155px;
+}
+
+/* C button */
+#calc .cscreen {
+    width: 40px;
+}
+
+
+/* buttons */
+#btns{
+    margin-top:5px;
+}
+#btns button {
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    padding: 0;
+}
+
+#btns #num, #btns #operations {
+    float:left;
+}
+#btns #operations {
+    width: 40px;
+}
+
+/* spinner */
+.loading #blocker {
+    display: block!important;
+}
+#blocker {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 263px;
+    border-radius: 5px;
+}
+#blocker img {
+    margin-top: 32px;
+}
+
+/* history */
+#history ul {
+    padding: 0;
+}
+#history li {
+    list-style: none;
+    text-align: center;
+}
